@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>recipe edit page</title>
+    </head>
+    <body>
+        <a href="./index.html">Home</a>
+        <input type="text" id="recipe-name">
+        <ol id="steps-field">
+        </ol>
+        <form id="new-step-form">
+            <textarea name="newStepText" id="" cols="50" rows="1" placeholder="add a step"></textarea>
+            <button>add Step</button>
+        </form>
+        <div id="ingredients-field">
+            
+        </div>
+        <form id="new-ingredient-form">
+            <input type="text" name="newIngredientText" placeholder="add ingredient">
+            <button>add Ingredient</button>
+        </form>
+        <button id="delete-button">Delete Recipe</button>
+        <script src="./scripts/edit-bundle.js"></script>
+    </body>
+</html>
